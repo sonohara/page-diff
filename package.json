@@ -1,0 +1,18 @@
+{
+  "name": "page-diff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./node_modules/.bin/http-server",
+    "diff": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "looks-same": "^7.1.1",
+    "puppeteer": "^1.13.0"
+  }
+}
